@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡約美觀網站</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        button {
+            background: #ff8c00;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #e07b00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>歡迎來到我的網站</h1>
+        <p>這是一個簡約而美觀的網站，點擊按鈕查看驚喜！</p>
+        <button onclick="showAlert()">點擊我</button>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("你好，歡迎來到這裡！");
+        }
+    </script>
+</body>
+</html>
